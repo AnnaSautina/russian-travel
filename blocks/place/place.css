@@ -4,8 +4,8 @@
   margin: 50px auto 0;
   padding: 0;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1tr 320px minmax(min-content, max-content);
-  grid-template-areas: 
+  grid-template-rows: 1fr 1fr 320px minmax(min-content, max-content);
+  grid-template-areas:
   "title"
   "website"
   "image"
@@ -20,7 +20,7 @@
     column-gap: 28px;
     grid-template-columns: 340px 1fr;
     grid-template-rows: 1fr minmax(min-content, max-content);
-    grid-template-areas: 
+    grid-template-areas:
     "title website"
     "image text";
   }
