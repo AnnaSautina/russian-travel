@@ -1,0 +1,31 @@
+.header__logo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 123px;
+  height: 36.4px;
+  background-image: url(../../../images/__logo.png);
+  background-size: cover;
+}
+
+@media screen and (min-width: 320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    top: 28px;
+    left: 24px;
+    width: 176px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__logo {
+    left: 48px;
+  }
+}

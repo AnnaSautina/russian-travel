@@ -1,0 +1,34 @@
+.place__title {
+  grid-area: title;
+  margin: 0 16px 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width: 321px) {
+  .place__title {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 667px) {
+  .place__title {
+    margin: 0;
+    font-size: 42px;
+    line-height:1.1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  place__title {
+    font-size: 72px;
+    line-height: 1.06;
+  }
+}

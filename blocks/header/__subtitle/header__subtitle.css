@@ -1,0 +1,28 @@
+.header__subtitle {
+  display: flex;
+  position: relative;
+  margin: 16px auto 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width: 320px) {
+  .header__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__subtitle {
+    margin-top: 32px;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+}

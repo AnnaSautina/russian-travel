@@ -1,0 +1,19 @@
+.intro__lists {
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  margin: 33px 0 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__lists {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__lists {
+    width: 690px;
+  }
+}

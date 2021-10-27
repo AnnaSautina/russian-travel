@@ -1,0 +1,11 @@
+.place__text {
+  margin: 0 16px 0;
+  padding: 0;
+  grid-area: text;
+}
+
+@media screen and (min-width: 667px) {
+  .place__text {
+    margin: 0;
+  }
+}

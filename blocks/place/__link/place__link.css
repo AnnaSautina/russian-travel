@@ -1,0 +1,17 @@
+.place__link {
+  margin: 12px 0 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'Inter', 'Arial', sans-serif;
+  text-decoration: underline;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  -webkit-font-smoothing: antialiased;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
