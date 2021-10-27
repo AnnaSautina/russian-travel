@@ -18,4 +18,4 @@
 	подключения к проекту нестандартного шрифта. Усвоены некоторые другие 
 	особенности применения стилей и оформления сss и html файлов.
 	
-*ссылка на GitHub Pages:* 
+*ссылка на GitHub Pages:* https://github.com/AnnaSautina/russian-travel.git
