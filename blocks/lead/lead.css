@@ -3,33 +3,20 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  margin: 90px 0 0;
+  margin: 48px auto 0;
   padding: 0;
-  width: 100vw;
-}
-
-@media screen and (min-width: 320px) {
-  .lead {
-    margin-top: 106px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .lead {
-    margin-top: 128px;
-  }
+  width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
-    width: 928px;
-    margin: 128px auto 0;
+    width: calc(100% - 96px)
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    margin-top: 136px;
-    width: 984px;
+    margin-top: 56px;
+    width: calc(100% - 296px)
   }
 }

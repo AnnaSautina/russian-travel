@@ -1,31 +1,25 @@
 .header__logo {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  width: 123px;
-  height: 36.4px;
-  background-image: url(../../../images/__logo.png);
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin: 16px 0 0;
+  width: 142px;
+  height: 42px;
+  background-image: url(../../../images/logo.png);
   background-size: cover;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 319px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
+    width: 123px;
+    height: 36.4px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .header__logo {
-    top: 28px;
-    left: 24px;
+    margin-top: 28px;
     width: 176px;
     height: 52px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .header__logo {
-    left: 48px;
   }
 }
