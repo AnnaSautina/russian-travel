@@ -3,8 +3,8 @@
   position: relative;
   margin: 64px auto 0;
   padding: 0;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr minmax(min-content, max-content) minmax(min-content, max-content);
+  grid-template-columns: minmax(320px, max-content);
+  grid-template-rows: 1fr minmax(min-content, max-content) minmax(min-content, max-content);
   grid-template-areas:
   "title"
   "website"
