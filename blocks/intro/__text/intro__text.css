@@ -2,6 +2,7 @@
   display:flex;
   margin: 40px 0 0;
   padding: 0;
+  width: 100%;
   text-align: left;
   font-family: 'Inter', 'Arial', sans-serif;
   color: #fff;
@@ -10,12 +11,6 @@
   font-size: 16px;
   line-height: 163%;
   -webkit-font-smoothing: antialiased;
-}
-
-@media screen and (min-width: 768px) {
-  .intro__text {
-    width: 720px;
-  }
 }
 
 @media screen and (min-width: 1024px) {

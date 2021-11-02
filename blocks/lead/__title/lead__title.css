@@ -1,8 +1,8 @@
-.header__title {
+.lead__title {
   display: flex;
-  position: relative;
   margin: 0 auto;
   padding: 0;
+  width: 288px;
   text-align: center;
   font-family: 'Inter', 'Arial', sans-serif;
   color: #fff;
@@ -13,16 +13,8 @@
   -webkit-font-smoothing: antialiased;
 }
 
-@media screen and (max-width: 319px) {
-  .header__title {
-    width: 100%;
-    margin: 0;
-    font-size:28px;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .header__title {
+  .lead__title {
     width: 720px;
     font-size: 96px;
     line-height: 1.04;

@@ -13,8 +13,7 @@
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
-  transition: text-decoration 1s linear 0.5s;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,9 +1,7 @@
-.header__caption {
-  position: relative;
-  left: 16px;
+.lead__caption {
   width: calc(100% - 16px);
   align-self: flex-start;
-  margin: 8px 0 0;
+  margin: 8px 0 0 16px;
   padding: 0;
   text-align: left;
   font-family: 'Inter', 'Arial', sans-serif;
@@ -17,16 +15,15 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header__caption {
-    left: 24px;
+  .lead__caption {
+    margin-left: 24px;
     width: calc(100% - 24px);
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .header__caption {
-    left: 0;
-    width: 928px;
-    margin: 8px auto 0;
+  .lead__caption {
+    margin-left: 0;
+    width: 100%;
   }
 }

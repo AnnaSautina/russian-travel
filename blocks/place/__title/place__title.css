@@ -12,24 +12,19 @@
   -webkit-font-smoothing: antialiased;
 }
 
-@media screen and (min-width: 321px) {
-  .place__title {
-    width: 320px;
-  }
-}
-
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 768px) {
   .place__title {
     margin: 0;
     width: 340px;
     font-size: 42px;
-    line-height:1.1;
+    line-height:46px;
+    word-spacing: 0.3em;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__title {
     font-size: 72px;
-    line-height: 1.06;
+    line-height: 76px;
   }
 }

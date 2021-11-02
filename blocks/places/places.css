@@ -1,0 +1,18 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 667px) {
+  .places {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    margin-top: 12px;
+  }
+}
