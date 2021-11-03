@@ -1,6 +1,5 @@
 .intro__lists {
   display:flex;
-  position: relative;
   flex-direction: column;
   margin: 33px 0 0;
   padding: 0;
